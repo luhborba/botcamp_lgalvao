@@ -1,14 +1,25 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+try:
+    print("====Exercicio 1====")
+    num_1 = int(input("Insira um valor inteiro: "))
+    num_2 = int(input("Insira um valor inteiro: "))
+
+    print(f'A  soma entre {num_1} e {num_2} é :{num_1 + num_2}')
+except:
+    print("Você colocou um número invalido, tente novamente")
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-print("====Exercicio 4====")
-num_1 = int(input("Insira um valor inteiro: "))
-num_2 = int(input("Insira um valor inteiro: "))
+try:
+    print("====Exercicio 4====")
+    num_1 = int(input("Insira um valor inteiro: "))
+    num_2 = int(input("Insira um valor inteiro: "))
 
-print(f'A divisão inteira entre {num_1} e {num_2} é {num_1 // num_2}')
+    print(f'A divisão inteira entre {num_1} e {num_2} é {num_1 // num_2}')
+except:
+    print("Você colocou um número invalido, tente novamente")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -32,6 +43,11 @@ print(f'A área do círculo é:  {area_do_circulo:.2f}')
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+print("====Exercicio 14====")
+data = input("Insira uma data no formato dd/mm/aaaa: ")
+
+data_split = data.split('/')
+print(f'Hoje é dia {data_split[0]} do mês {data_split[1]} do ano {data_split[2]}')
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # #### Booleanos (`bool`)

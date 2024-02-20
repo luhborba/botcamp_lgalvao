@@ -4,6 +4,7 @@
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+print("====Exercicio 4====")
 num_1 = int(input("Insira um valor inteiro: "))
 num_2 = int(input("Insira um valor inteiro: "))
 
@@ -18,6 +19,12 @@ print(f'A divisão inteira entre {num_1} e {num_2} é {num_1 // num_2}')
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+print("====Exercicio 10====")
+from math import pi
+raio = float(input("Insira o valor do raio: "))
+
+area_do_circulo = pi * raio ** 2
+print(f'A área do círculo é:  {area_do_circulo:.2f}')
 
 # #### Strings (`str`)
 
